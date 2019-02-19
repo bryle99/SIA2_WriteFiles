@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteFiles_Dll", "WriteFiles_Dll\WriteFiles_Dll.csproj", "{D869ADE2-3B28-4ED7-8BAD-F4B1CCC3E657}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3ED091A-E67F-4C76-BBC4-C13526F20FD9} = {D3ED091A-E67F-4C76-BBC4-C13526F20FD9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteFiles_Console", "WriteFiles_Console\WriteFiles_Console.csproj", "{F78FD22F-7D8E-4601-8476-8DFAF245F6FC}"
 EndProject
@@ -44,6 +47,7 @@ Global
 		{F78FD22F-7D8E-4601-8476-8DFAF245F6FC}.Release|x86.ActiveCfg = Release|Any CPU
 		{F78FD22F-7D8E-4601-8476-8DFAF245F6FC}.Release|x86.Build.0 = Release|Any CPU
 		{D3ED091A-E67F-4C76-BBC4-C13526F20FD9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D3ED091A-E67F-4C76-BBC4-C13526F20FD9}.Debug|Any CPU.Build.0 = Debug|Win32
 		{D3ED091A-E67F-4C76-BBC4-C13526F20FD9}.Debug|x64.ActiveCfg = Debug|x64
 		{D3ED091A-E67F-4C76-BBC4-C13526F20FD9}.Debug|x64.Build.0 = Debug|x64
 		{D3ED091A-E67F-4C76-BBC4-C13526F20FD9}.Debug|x86.ActiveCfg = Debug|Win32

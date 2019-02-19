@@ -42,7 +42,9 @@ namespace WriteFiles_Dll
 
         public void WriteFiles() {
             string[] files = Directory.GetFiles(GetDirectory(), "*.txt", SearchOption.AllDirectories);
-            string message = "This has been written by a C# dll";
+            string message;
+            Console.Write("Enter Message: ");
+            message = Console.ReadLine();
             foreach (string file in files) {
                 Console.WriteLine(file + "  Has been written!");
                 File.WriteAllText(file, message);
